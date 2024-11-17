@@ -17,6 +17,10 @@ spec:
   template:
     metadata:
       name: backend
+      labels:
+        environment: dev
+        project: expense
+        modue: backend
     spec:
       containers:
       - name: backend
