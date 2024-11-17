@@ -17,7 +17,7 @@ spec:
   template:
     metadata:
       name: backend
-    spce:
+    spec:
       containers:
       - name: backend
         image: amarnadh31/backend:v2
