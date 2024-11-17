@@ -21,6 +21,9 @@ spec:
       containers:
       - name: backend
         image: amarnadh31/backend:v2
+        envFrom:
+        - configMapRef:
+            name: backend-config
 ---
 apiVersion: v1
 kind: Service
